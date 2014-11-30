@@ -42,7 +42,7 @@ public class BasicForm extends Application {
 		grid.setPadding(new Insets(T_PAD,R_PAD,B_PAD,L_PAD));
 
 		Text sceneTitle = new Text(TITLE);
-		sceneTitle.setFont(Font.font("Tahoma", FontWeight.NORMAL,TITLE_SIZE));
+		sceneTitle.setFont(Font.font(PREF_FONT, FontWeight.NORMAL,TITLE_SIZE));
 		grid.add(sceneTitle,0,0,2,1);
 
 		Label userName = new Label("User Name:");
